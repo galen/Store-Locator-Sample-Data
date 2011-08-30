@@ -1,6 +1,6 @@
-#Store Location Data
+#Store Locator Sample Data
 
-Store location data for testing purposes
+Store location sample data
 
 ###pizza_us.sql
 - 152 pizzarias in the Unites States
