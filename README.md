@@ -1,7 +1,5 @@
 #Store Locator Sample Data
 
-Store location sample data
-
 ###pizza_us.sql
 - 152 pizzarias in the Unites States
 - Columns: id, name, address, city, state, country, lat, lng.
