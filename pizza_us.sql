@@ -2,15 +2,15 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 CREATE TABLE `pizza` (
   `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) DEFAULT NULL,
-  `address` varchar(50) DEFAULT NULL,
-  `city` varchar(30) NOT NULL,
-  `state` varchar(2) DEFAULT NULL,
-  `country` varchar(2) DEFAULT NULL,
+  `name` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `address` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `city` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `state` varchar(2) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `country` varchar(2) COLLATE utf8_unicode_ci DEFAULT NULL,
   `lat` float(10,6) NOT NULL,
   `lng` float(10,6) NOT NULL,
   PRIMARY KEY (`id`)
-);
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=152 ;
 
 INSERT INTO `pizza` VALUES(1, 'Amici''s East Coast Pizzeria', '790 Castro St', 'Mountain View', 'CA', 'US', 37.387226, -122.083252);
 INSERT INTO `pizza` VALUES(2, 'Kapp''s Pizza Bar & Grill', '191 Castro St', 'Mountain View', 'CA', 'US', 37.393887, -122.078918);
@@ -120,14 +120,14 @@ INSERT INTO `pizza` VALUES(105, 'Domino''s Pizza', '1524 S Broadway # 1', 'Minot
 INSERT INTO `pizza` VALUES(106, 'American Classic Pizzeria', '1744 Grand Ave', 'Billings', 'MT', 'US', 45.784119, -108.560204);
 INSERT INTO `pizza` VALUES(107, 'Godfather''s Pizza', '905 Main St', 'Billings', 'MT', 'US', 45.815079, -108.470757);
 INSERT INTO `pizza` VALUES(108, 'Papa John''s Pizza', '605 Main St', 'Billings', 'MT', 'US', 45.810223, -108.472122);
-INSERT INTO `pizza` VALUES(109, 'Aardvark Pizza & Sub', '304A Caribou St', 'Banff', 'AB', 'US', 51.176487, -115.570747);
-INSERT INTO `pizza` VALUES(110, 'Jasper Pizza Place', '402 Connaught Dr', 'Jasper', 'AB', 'US', 52.879086, -118.079315);
-INSERT INTO `pizza` VALUES(111, 'Odyssey Pizza & Steak House', '3-3814 Bow Trail SW', 'Calgary', 'AB', 'US', 51.045235, -114.141251);
-INSERT INTO `pizza` VALUES(112, 'Basil''s Pizza', '2118 33 Avenue SW', 'Calgary', 'AB', 'US', 51.023979, -114.109901);
-INSERT INTO `pizza` VALUES(113, 'Castle Pizza & Donair', '7724 Elbow Drive SW', 'Calgary', 'AB', 'US', 50.984497, -114.083153);
-INSERT INTO `pizza` VALUES(114, 'Santa Lucia Italian Restaurant', '714 8 St', 'Canmore', 'AB', 'US', 51.089195, -115.358734);
-INSERT INTO `pizza` VALUES(115, 'Tops Pizza & Steak House No 3', '7-5602 4 Street NW', 'Calgary', 'AB', 'US', 51.101204, -114.071457);
-INSERT INTO `pizza` VALUES(116, 'Evvia Restaurant', '837 Main St', 'Canmore', 'AB', 'US', 51.089176, -115.361771);
+INSERT INTO `pizza` VALUES(109, 'Aardvark Pizza & Sub', '304A Caribou St', 'Banff', 'AB', 'CA', 51.176487, -115.570747);
+INSERT INTO `pizza` VALUES(110, 'Jasper Pizza Place', '402 Connaught Dr', 'Jasper', 'AB', 'CA', 52.879086, -118.079315);
+INSERT INTO `pizza` VALUES(111, 'Odyssey Pizza & Steak House', '3-3814 Bow Trail SW', 'Calgary', 'AB', 'CA', 51.045235, -114.141251);
+INSERT INTO `pizza` VALUES(112, 'Basil''s Pizza', '2118 33 Avenue SW', 'Calgary', 'AB', 'CA', 51.023979, -114.109901);
+INSERT INTO `pizza` VALUES(113, 'Castle Pizza & Donair', '7724 Elbow Drive SW', 'Calgary', 'AB', 'CA', 50.984497, -114.083153);
+INSERT INTO `pizza` VALUES(114, 'Santa Lucia Italian Restaurant', '714 8 St', 'Canmore', 'AB', 'CA', 51.089195, -115.358734);
+INSERT INTO `pizza` VALUES(115, 'Tops Pizza & Steak House No 3', '7-5602 4 Street NW', 'Calgary', 'AB', 'CA', 51.101204, -114.071457);
+INSERT INTO `pizza` VALUES(116, 'Evvia Restaurant', '837 Main St', 'Canmore', 'AB', 'CA', 51.089176, -115.361771);
 INSERT INTO `pizza` VALUES(117, 'D&#39;Bronx', '3904 Bell St', 'Kansas City', 'MO', 'US', 39.057182, -94.606102);
 INSERT INTO `pizza` VALUES(118, 'Cicero''s Restaurant & Entrtnmt', '6691 Delmar Blvd', 'St Louis', 'MO', 'US', 38.656307, -90.308441);
 INSERT INTO `pizza` VALUES(119, 'Hideaway Pizza', '6616 N Western Ave', 'Oklahoma City', 'OK', 'US', 35.539116, -97.529762);
