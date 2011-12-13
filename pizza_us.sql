@@ -111,7 +111,7 @@ INSERT INTO `pizza` VALUES(96, 'Fargos Pizza Co', '2910 E Platte Ave', 'Colorado
 INSERT INTO `pizza` VALUES(97, 'Old Chicago', '1415 Market St', 'Denver', 'CO', 'US', 39.748177, -105.000504);
 INSERT INTO `pizza` VALUES(98, 'Sink', '1165 13th St', 'Boulder', 'CO', 'US', 40.008209, -105.276237);
 INSERT INTO `pizza` VALUES(99, 'Ligori''s Pizza & Pasta', '4421 Harrison Blvd', 'Ogden', 'UT', 'US', 41.182732, -111.949196);
-INSERT INTO `pizza` VALUES(100, 'Old Chicago', '1102 Pearl St', 'Boulder', 'CO', 'US', 0.000000, 0.000000);
+INSERT INTO `pizza` VALUES(100, 'Old Chicago', '1102 Pearl St', 'Boulder', 'CO', 'US', 40.017502, -105.281189);
 INSERT INTO `pizza` VALUES(101, 'Boston''s Restaurant & Sports', '620 E Disk Dr', 'Rapid City', 'SD', 'US', 44.106937, -103.205223);
 INSERT INTO `pizza` VALUES(102, 'Chuck E Cheese''s Pizza', '100 24th St W # B', 'Billings', 'MT', 'US', 45.771355, -108.576286);
 INSERT INTO `pizza` VALUES(103, 'Space Aliens Grill & Bar', '1304 E Century Ave', 'Bismarck', 'ND', 'US', 46.838081, -100.771736);
